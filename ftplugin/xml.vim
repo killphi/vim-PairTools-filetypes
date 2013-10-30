@@ -9,7 +9,7 @@
 " Enable/Disable modules to use. For HTML, I like to
 " use all modules but restricting few capabilities
 execute "let g:pairtools_" . &ft . "_pairclamp = 1"
-execute "let g:pairtools_" . &ft . "_tagwrench = 1"
+execute "let g:pairtools_" . &ft . "_tagwrench = 0"
 execute "let g:pairtools_" . &ft . "_jigsaw    = 1"
 
 " Configure PairClamp
@@ -25,7 +25,7 @@ execute "let g:pairtools_" . &ft . "_pcexpander = 1"
 execute "let g:pairtools_" . &ft . "_pceraser   = 1"
 
 " Configure TagWrench
-execute "let g:pairtools_" . &ft . "_tagwrenchhook = 'tagwrench#BuiltinBasicTagHook'"
+execute "let g:pairtools_" . &ft . "_tagwrenchhook = 'tagwrench#BuiltinNoHook'"
 execute "let g:pairtools_" . &ft . "_twexpander = 1"
 execute "let g:pairtools_" . &ft . "_tweraser   = 1"
 
