@@ -15,7 +15,7 @@ execute "let g:pairtools_" . &ft . "_jigsaw    = 1"
 " Configure PairClamp
 execute "let g:pairtools_" . &ft . "_autoclose  = 1"
 execute "let g:pairtools_" . &ft . "_forcepairs = 0"
-execute "let g:pairtools_" . &ft . "_closepairs = \"':'\" . ',\":\",<:>'"
+execute "let g:pairtools_" . &ft . "_closepairs = \"':'\" . ',\":\""
 execute "let g:pairtools_" . &ft . "_smartclose = 1"
 execute "let g:pairtools_" . &ft . "_smartcloserules = '\w'"
 execute "let g:pairtools_" . &ft . "_apostrophe = 0"
