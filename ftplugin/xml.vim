@@ -8,24 +8,24 @@
 
 " Enable/Disable modules to use. For HTML, I like to
 " use all modules but restricting few capabilities
-let g:pairtools_xml_pairclamp = 1
-let g:pairtools_xml_tagwrench = 1
-let g:pairtools_xml_jigsaw    = 1
+execute "let g:pairtools_" . &ft . "_pairclamp = 1"
+execute "let g:pairtools_" . &ft . "_tagwrench = 1"
+execute "let g:pairtools_" . &ft . "_jigsaw    = 1"
 
 " Configure PairClamp
-let g:pairtools_xml_autoclose  = 1
-let g:pairtools_xml_forcepairs = 0
-let g:pairtools_xml_closepairs = "':'" . ',":",<:>'
-let g:pairtools_xml_smartclose = 1
-let g:pairtools_xml_smartcloserules = '\w'
-let g:pairtools_xml_apostrophe = 0
-let g:pairtools_xml_antimagic  = 1
-let g:pairtools_xml_antimagicfield  = "Comment,String"
-let g:pairtools_xml_pcexpander = 1
-let g:pairtools_xml_pceraser   = 1
+execute "let g:pairtools_" . &ft . "_autoclose  = 1"
+execute "let g:pairtools_" . &ft . "_forcepairs = 0"
+execute "let g:pairtools_" . &ft . "_closepairs = \"':'\" . ',\":\",<:>'"
+execute "let g:pairtools_" . &ft . "_smartclose = 1"
+execute "let g:pairtools_" . &ft . "_smartcloserules = '\w'"
+execute "let g:pairtools_" . &ft . "_apostrophe = 0"
+execute "let g:pairtools_" . &ft . "_antimagic  = 1"
+execute "let g:pairtools_" . &ft . "_antimagicfield  = 'Comment,String'"
+execute "let g:pairtools_" . &ft . "_pcexpander = 1"
+execute "let g:pairtools_" . &ft . "_pceraser   = 1"
 
 " Configure TagWrench
-let g:pairtools_xml_tagwrenchhook = 'tagwrench#BuiltinBasicTagHook'
-let g:pairtools_xml_twexpander = 1
-let g:pairtools_xml_tweraser   = 1
+execute "let g:pairtools_" . &ft . "_tagwrenchhook = 'tagwrench#BuiltinBasicTagHook'"
+execute "let g:pairtools_" . &ft . "_twexpander = 1"
+execute "let g:pairtools_" . &ft . "_tweraser   = 1"
 
