@@ -1,4 +1,4 @@
-vim-PairTools-filetypes
-=======================
+vim-PairTools-xml-xslt-extension
+================================
 
-ftplugins for vim-PairTools
+My xml/xslt ftplugins for vim-PairTools
