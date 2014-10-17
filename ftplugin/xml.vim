@@ -23,9 +23,3 @@ execute "let g:pairtools_" . &ft . "_antimagic  = 1"
 execute "let g:pairtools_" . &ft . "_antimagicfield  = 'Comment,String'"
 execute "let g:pairtools_" . &ft . "_pcexpander = 1"
 execute "let g:pairtools_" . &ft . "_pceraser   = 1"
-
-" Configure TagWrench
-execute "let g:pairtools_" . &ft . "_tagwrenchhook = 'tagwrench#BuiltinNoHook'"
-execute "let g:pairtools_" . &ft . "_twexpander = 1"
-execute "let g:pairtools_" . &ft . "_tweraser   = 1"
-
